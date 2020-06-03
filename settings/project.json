@@ -1,0 +1,113 @@
+{
+  "group-list": [
+    "default",
+    "player",
+    "enemy",
+    "bulletPlayer",
+    "bulletEnemy"
+  ],
+  "collision-matrix": [
+    [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "excluded-modules": [
+    "Audio",
+    "AudioSource",
+    "Animation",
+    "Dynamic Atlas",
+    "DragonBones",
+    "EditBox",
+    "Graphics",
+    "Geom Utils",
+    "Layout",
+    "Label Effect",
+    "Mask",
+    "Mesh",
+    "MotionStreak",
+    "NodePool",
+    "Native Socket",
+    "Physics",
+    "PageView",
+    "PageViewIndicator",
+    "ProgressBar",
+    "ParticleSystem",
+    "RichText",
+    "Renderer Texture",
+    "Slider",
+    "ScrollBar",
+    "ScrollView",
+    "Spine Skeleton",
+    "StudioComponent",
+    "Toggle",
+    "TiledMap",
+    "VideoPlayer",
+    "Widget",
+    "WebView",
+    "3D",
+    "3D Primitive",
+    "WechatSubContext",
+    "SwanSubContext",
+    "TypeScript Polyfill",
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
+  ],
+  "last-module-event-record-time": 1590827811644,
+  "design-resolution-width": 960,
+  "design-resolution-height": 640,
+  "fit-width": false,
+  "fit-height": true,
+  "use-project-simulator-setting": false,
+  "simulator-orientation": false,
+  "use-customize-simulator": true,
+  "simulator-resolution": {
+    "height": 640,
+    "width": 960
+  },
+  "assets-sort-type": "name",
+  "facebook": {
+    "appID": "",
+    "audience": {
+      "enable": false
+    },
+    "enable": false,
+    "live": {
+      "enable": false
+    }
+  },
+  "migrate-history": [],
+  "start-scene": "current"
+}
